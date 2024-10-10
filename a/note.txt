@@ -1,0 +1,33 @@
+UCI Machine Learning Repository (https://archive.ics.uci.edu/) araştırmacıların hazırlamış oldukları veri kümelerini paylaştıkları ve tanıttıkları bir platformdur. Bu sayfada yayınlanan sınıflandırma problemine uygun bir veri kümesini (iris veri kümesini derste yaptık kullanmayınız) incelemeniz bu ödev kapsamında beklenmektedir. Derste iris veri kümesini incelediğimiz gibi kullanacak olduğunuz veri kümesini ayrıntılı olarak incelemeniz gerekmektedir. Veri kümesi incelemesinde aşağıdaki maddelerde yer alan isterlerin yerine getirilmesi gerekmektedir.
+
+1) Veri kümesi ne zaman, hangi makale/çalışma kapsamında oluşturulmuştur? 
+2) Veri kümesi kaç sınıftan oluşmaktadır? 
+3) Veri kümesi dağılımı nasıldır? (dengeli/dengesiz) 
+4) Veri kümesi içerisinde kaç tane örnek yer almaktadır? 
+5) Veri kümesinde boş/eksik/yanlış değer var mı? 
+6) Veri kümesinde kaç adet öznitelik vardır? Bu öznitelikler hangi yapıdadır? 
+7) Veri kümesine ait temel istatistiksel özellikler nasıldır? Örneğin veri kümesi nümerik değerlerden oluşan bir veri kümesi ise sınıflar ile öznitelikler arasındaki korelasyon, özniteliklere ait standart sapma, ortalama, maksimum ve minimum değerler gibi 
+8) Box plot grafikler ile özniteliklere ait yorumlar ve değerlendirmeler 
+9) Özniteliklere ait histogram grafikleri ve bunlara ait yorumlar ve değerlendirmeler 
+10) Scatter plot grafikler ile veri kümesinin dağılımı ve görselleştirilmesi bunlara ait yorumlar ve değerlendirmeler 
+11) Çok sayıda iki farklı öznitelik ile Scatter plot grafikler çizimleri ve özniteliğin sınıf ayrımındaki rollerinin gösterilmesi, değerlendirilmesi 
+12) Violinplot ile sınıf yoğunluklarının görselleştirilmesi ve buna ait yorumlar ve değerlendirmeler
+13) Veri görselleştirme adımlarında gözlemlediğiniz durumları seçmiş olduğunuz bir sınıflandırma algoritması (KNN, SVM, NB vb. gibi) üzerinde çeşitli deneyler yaparak inceleyiniz. Veri görselleştirme adımında gözlemlenen durumlar sınıflandırma adımında görülüyor mu? Ayrıntılı bir şekilde yorumlayınız.
+
+Bu isterleri kullanacak olduğunuz veri kümesi üzerinde istediğiniz programlama dili ve kütüphanelerini kullanarak yapınız. Python, MATLAB, R veya Julia tavsiye edilir ama programlama dili seçimi önemli değildir. Hangi dil ve kütüphaneye aşina iseniz ondan ilerleyebilirsiniz. Önemli olan isterlerin sağlanması ile veri kümesinin anlaşılmasıdır. Bu adımın ardından isterlerin olduğu rapor ve sunum dosyası hazırlamanız gerekmektedir.
+
+Ödevin son gönderimi 13 Ekim 2024 Pazar günü saat 23:59’dur. Ödev durmus.odev@gmail.com mail adresine BM605-Ödev1 konusu ile gönderilecektir. Mail ekinde rapor dosyanız (.doc, .docx), sunum dosyanız (.ppt, .pptx veya .odp dosyasından herhangi biri), isterleri oluştururken kullandığınız kaynak kodlar ve kullanılan veri kümesi mutlaka yer almalıdır. Bu eklerden herhangi birinin eksik olması veya geç gönderim durumlarında ödeviniz değerlendirmeye alınmayacaktır. 14 Ekim 2024 Pazartesi tarihindeki dersimizde hazırlamış olduğunuz sunumlar sizler tarafından yapılacaktır.
+
+
+
+
+
+
+
+
+
+
+https://archive.ics.uci.edu/dataset/186/wine+quality
+
+
+https://archive.ics.uci.edu/dataset/327/phishing+websites
