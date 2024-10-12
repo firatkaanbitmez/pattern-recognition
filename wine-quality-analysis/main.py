@@ -23,15 +23,13 @@ os.makedirs(output_dir)
 print(f"'output' klasörü '{output_dir}' konumunda başarıyla oluşturuldu.")
 
 # Veri setlerinin yolları
-red_wine_path = r'C:\Users\FIRAT\Desktop\pattern-recognition\a\data\winequality-red.csv'
-white_wine_path = r'C:\Users\FIRAT\Desktop\pattern-recognition\a\data\winequality-white.csv'
+red_wine_path = r'C:\Users\FIRAT\Desktop\pattern-recognition\wine-quality-analysis\data\winequality-red.csv'
+white_wine_path = r'C:\Users\FIRAT\Desktop\pattern-recognition\wine-quality-analysis\data\winequality-white.csv'
 
 # Veri setlerinin okunması
 red_wine = pd.read_csv(red_wine_path, sep=';')
 white_wine = pd.read_csv(white_wine_path, sep=';')
 
-# 1) Veri kümesinin genel tanımlaması:
-print("Veri seti, 2009 yılında Paulo Cortez ve ekibi tarafından oluşturulmuştur.")
 
 # 2) Veri kümesi kaç sınıftan oluşmaktadır?
 print("\nRed Wine Sınıf Dağılımı:")

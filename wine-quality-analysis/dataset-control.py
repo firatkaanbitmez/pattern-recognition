@@ -2,8 +2,8 @@
 import pandas as pd
 
 # Red ve White wine veri setlerinin yolları
-red_wine_path = r'C:\Users\FIRAT\Desktop\pattern-recognition\a\winequality-red.csv'
-white_wine_path = r'C:\Users\FIRAT\Desktop\pattern-recognition\a\winequality-white.csv'
+red_wine_path = r'C:\Users\FIRAT\Desktop\pattern-recognition\wine-quality-analysis\data\winequality-red.csv'
+white_wine_path = r'C:\Users\FIRAT\Desktop\pattern-recognition\wine-quality-analysis\data\winequality-white.csv'
 
 # Veri setlerinin okunması
 red_wine = pd.read_csv(red_wine_path, sep=';')
