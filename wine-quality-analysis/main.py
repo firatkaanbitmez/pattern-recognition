@@ -164,8 +164,8 @@ def run_classification_models(X_train, X_test, y_train, y_test, dataset_name):
     results['Decision Tree'] = accuracy_score(y_test, y_pred_dt)
     print(f"Decision Tree Accuracy for {dataset_name}: {results['Decision Tree']}")
 
-    # Classification Report
-    report = classification_report(y_test, y_pred_dt, output_dict=True)
+    # Generate the classification report after predictions are made
+    report = classification_report(y_test, y_pred_dt, output_dict=True, zero_division=1)
     report_df = pd.DataFrame(report).transpose()
     report_path = os.path.join(output_dir, f'{dataset_name}_classification_report.csv')
     report_df.to_csv(report_path)
