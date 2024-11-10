@@ -16,6 +16,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 # Step 1: Load the dataset
 column_names = [
@@ -28,12 +29,18 @@ column_names = [
     "compactness_worst", "concavity_worst", "concave_points_worst", "symmetry_worst", "fractal_dimension_worst"
 ]
 
-# Load dataset path
-data_path = r"C:\Users\FIRAT\Desktop\pattern-recognition\breast-cancer-analysis\Data\wdbc.data"
+base_dir = os.path.dirname(os.path.abspath(__file__))
+data_path = os.path.join(base_dir, "Data", "wdbc.data")
+output_dir = os.path.join(base_dir, "Output")
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
-# Load the dataset with header adjustment
-df = pd.read_csv(data_path, header=None, names=column_names)
 
+if not os.path.exists(data_path):
+    print(f"Dosya bulunamadı: {data_path}")
+else:
+    df = pd.read_csv(data_path, header=None, names=column_names)
+    
 # Step 2: Data cleaning and preprocessing
 # Encode the 'Diagnosis' column
 encoder = LabelEncoder()
@@ -97,10 +104,13 @@ results_summary["t-SNE"] = evaluate_models(tsne_features, df['Diagnosis'], model
 plt.figure(figsize=(8, 6))
 sns.scatterplot(x=pca_features[:, 0], y=pca_features[:, 1], hue=df['Diagnosis'], palette='viridis')
 plt.title("PCA Visualization")
-plt.savefig("PCA_Visualization.png")
+pca_output_path = os.path.join(output_dir, "PCA_Visualization.png")
+plt.savefig(pca_output_path)
+
 
 # t-SNE Visualization
 plt.figure(figsize=(8, 6))
 sns.scatterplot(x=tsne_features[:, 0], y=tsne_features[:, 1], hue=df['Diagnosis'], palette='coolwarm')
 plt.title("t-SNE Visualization")
-plt.savefig("tSNE_Visualization.png")
+tsne_output_path = os.path.join(output_dir, "tSNE_Visualization.png")
+plt.savefig(tsne_output_path)

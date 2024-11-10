@@ -1,6 +1,4 @@
-Merhaba arkadaşlar,
 
-Ders kapsamında verilen ikinci ödev ve açıklaması şöyledir:
 
 UCI Machine Learning Repository'den (https://archive.ics.uci.edu/) alacağınız bir veri kümesi (sınıflandırma problemi olmalı) üzerinde Temel Bileşenler Analizi (Principal Components Analysis), Doğrusal Ayrım Analizi (Linear Discriminant Analysis) ve t-Dağıtımlı Stokastik Komşu Yerleştirme (t-Distributed Stochastic Neighbor Embedding) boyut indirgeme tekniklerini uygulayarak bu boyut indirgeme tekniklerinin sınıflandırma başarımına olan etkilerini raporlayınız. 4-5 farklı sınıflandırma algoritması (istediğinizi seçebilirsiniz) üzerinde sınıflandırma problemi çözülmelidir. Boyut indirgeme ve boyut indirgeme olmadan yapılan sınıflandırma başarımları çeşitli veri görselleştirme ile ele alınarak rapora eklenmelidir. Ayrıca boyut indirgemede boyutun ne kadara indiği ve bu seçimin nasıl yapıldığı da anlatılmalıdır.
 
