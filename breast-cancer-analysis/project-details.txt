@@ -1,0 +1,20 @@
+Merhaba arkadaşlar,
+
+Ders kapsamında verilen ikinci ödev ve açıklaması şöyledir:
+
+UCI Machine Learning Repository'den (https://archive.ics.uci.edu/) alacağınız bir veri kümesi (sınıflandırma problemi olmalı) üzerinde Temel Bileşenler Analizi (Principal Components Analysis), Doğrusal Ayrım Analizi (Linear Discriminant Analysis) ve t-Dağıtımlı Stokastik Komşu Yerleştirme (t-Distributed Stochastic Neighbor Embedding) boyut indirgeme tekniklerini uygulayarak bu boyut indirgeme tekniklerinin sınıflandırma başarımına olan etkilerini raporlayınız. 4-5 farklı sınıflandırma algoritması (istediğinizi seçebilirsiniz) üzerinde sınıflandırma problemi çözülmelidir. Boyut indirgeme ve boyut indirgeme olmadan yapılan sınıflandırma başarımları çeşitli veri görselleştirme ile ele alınarak rapora eklenmelidir. Ayrıca boyut indirgemede boyutun ne kadara indiği ve bu seçimin nasıl yapıldığı da anlatılmalıdır.
+
+Not1: Ödev raporu özentili hazırlanmalıdır. Kullanılan kaynak(lar) mutlaka raporda atıf verilerek gösterilmelidir. Raporda yer alan cümleler anlaşılır olmalıdır. Hazırlamış olduğunuz raporlar ödevi ve konuyu öğrenmiş olduğunuzu gösterir nitelikte olmalıdır. Derste PCA'nın matematiksel altyapısını sizlere anlatmıştım. LDA ve T-SNE'nin matematiksel altyapılarına da raporda mutlaka değinilmelidir. Ayrıca ödeve ait sunum dosyası hazırlamanız gerekmektedir. Ödev kapsamında sunum yapılacaktır.  
+
+Not2: Ödevi istediğiniz programlama dilinde yazabilirsiniz. Önemli olan ilgili programlama dilinde hangi araçların veya kitaplıkların kullanıldığını belirtmektir. Ayrıca kullandığınız veri kümesi de kısaca anlatılmalıdır. Bu gibi durumlar raporda açıklanmalıdır. Kendi bilgisayarımda ödevleriniz denendiğinde sorun olmaması için bu gibi detaylar verilirse iyi olur.
+
+Not3: Ödevin son gönderimi 17 Kasım 2024 Pazar günü saat 17:00’dır. Ödev durmus.odev@gmail.com mail adresine BM605-Ödev2 konusu ile gönderilecektir. Mail ekinde rapor dosyanız (doc veya docx dosyasından herhangi biri), sunum dosyanız (ppt veya pptx dosyasından herhangi biri) isterleri oluştururken kullandığınız kaynak kodlar ve kullanılan veri kümesi mutlaka yer almalıdır. Bu eklerden herhangi birinin eksik olması veya geç gönderim durumlarında ödeviniz değerlendirmeye alınmayacaktır. 18 Kasım 2024 Pazartesi günü yapılacak olan dersimizde ödevler sunulacaktır. 11 Kasım 2024 tarihindeki dersimiz vize haftasına denk geldiği için olmayacaktır.
+
+İyi çalışmalar dilerim.
+
+
+
+
+DataSet
+
+https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
