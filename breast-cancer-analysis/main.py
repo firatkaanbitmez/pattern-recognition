@@ -17,11 +17,15 @@ import joblib
 from fpdf import FPDF
 import seaborn as sns
 
+# ===================== Requirements =====================
+#os.system("pip install pandas numpy matplotlib scikit-learn joblib fpdf seaborn")
+
 # ===================== Sabit Değerler =====================
 RANDOM_STATE = 42
-DATA_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/wdbc/wdbc.data"
+DATA_URL = "Data/wdbc.data"
+#DATA_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/wdbc/wdbc.data"
 
-# ===================== Dinamik Klasör Yolları =====================
+# ===================== Klasör Yolları =====================
 base_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.join(base_dir, "Data")
 output_dir = os.path.join(base_dir, "Output")
@@ -34,7 +38,7 @@ noreduction_visuals_dir = os.path.join(visuals_dir, "NoReduction")
 comparison_visuals_dir = os.path.join(visuals_dir, "Comparison")
 report_dir = os.path.join(output_dir, "Reports")
 
-# Gerekli klasörleri oluştur
+# Klasörler
 for directory in [data_dir, output_dir, models_dir, visuals_dir, pca_visuals_dir, lda_visuals_dir, tsne_visuals_dir, noreduction_visuals_dir, comparison_visuals_dir, report_dir]:
     os.makedirs(directory, exist_ok=True)
 
@@ -253,3 +257,5 @@ for model_name in models.keys():
     plt.close()
 
 print("Tüm işlemler tamamlandı. Çıktılar 'Output/Visuals' ve raporlar 'Output/Reports' klasörüne kaydedildi.")
+
+
