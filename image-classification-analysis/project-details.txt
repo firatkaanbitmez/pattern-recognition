@@ -1,0 +1,11 @@
+Merhaba arkadaşlar, 
+
+Ders kapsamında verilen üçüncü ödev ve açıklaması şöyledir: Son dersimizde görüntü üzerinden özellik çıkarımı tekniklerine değindik. Bu doğrultuda iki farklı özellik çıkarımını kullanarak farklı sınıflandırma algoritmaları ile karakter tanıma problemi üzerinde başarım değerlendirmesi yaptık. İlk olarak görüntüyü piksel piksel sınıflandırma algoritmalarına verdik. Daha sonra Gray level co-occurrence matrix (GLCM) ile özelliklerini çıkarmayı gerçekleştirdik. Bu ödev kapsamında GLCM, Local binary pattern, Local Binary Gray Level Co-occurrence Matrix ve Gray Level Run Length Matrix özellik çıkarma tekniklerini açık kaynaklı görüntü sınıflandırma veri seti üzerinde 4-5 farklı sınıflandırma algoritması (istediğinizi seçebilirsiniz) kullanarak başarımlarını raporlayınız ve bir sunum dosyası hazırlayınız. 
+
+Not1: Ödev raporu özentili hazırlanmalıdır. Kullanılan kaynak(lar) mutlaka raporda atıf verilerek gösterilmelidir. Raporda yer alan cümleler anlaşılır olmalıdır. Hazırlamış olduğunuz raporlar ödevi ve konuyu öğrenmiş olduğunuzu gösterir nitelikte olmalıdır. 
+
+Not2: Ödevi istediğiniz programlama dilinde yazabilirsiniz. Önemli olan ilgili programlama dilinde hangi araçların veya kitaplıkların kullanıldığını belirtmektir. Ayrıca kullandığınız veri kümesini nereden aldığınız belirtilmeli ve kısaca anlatılmalıdır. Bu gibi durumlar raporda açıklanmalıdır. Kendi bilgisayarımda ödevleriniz denendiğinde sorun olmaması için bu gibi detaylar verilirse iyi olur. 
+
+Not3: Ödevin son gönderimi 15 Aralık 2024 Pazar günü saat 23:59’dur. Ödev durmus.odev@gmail.com mail adresine BM605-Ödev3 konusu ile gönderilecektir. Mail ekinde rapor dosyanız (doc veya docx dosyasından herhangi biri), ödeve ait sunum dosyanız (.ppt veya .pptx dosyasından herhangi biri), isterleri oluştururken kullandığınız kaynak kodlar ve kullanılan veri kümesi mutlaka yer almalıdır. Bu eklerden herhangi birinin eksik olması veya geç gönderim durumlarında ödeviniz değerlendirmeye alınmayacaktır. 16 Haziran 2024 tarihindeki dersimizde hazırlamış olduğunuz sunumlar sizler tarafından yapılacaktır.  
+
+İyi çalışmalar dilerim.
