@@ -1,0 +1,14 @@
+Merhaba arkadaşlar,
+
+En son dersimizde zaman serisi analizlerini anlattım. Buradaki problemlere örnekler verdim ve bazı zaman serisi tahminleme yöntemlerinde kullanılan teknikleri anlattım. Bu doğrultuda sizden zaman serisi problemlerini ve bu problemlerin çözüm teknikleri ile ilgili bir araştırma ödevi istiyorum. Yani herhangi bir kod vs yazılmayacak. Ödev detayları şöyledir:
+
+1) Literatürde zaman serisi problemleri olarak neler çalışılmış?
+2) Zaman serisi problemleri hangi teknikler ile çözülüyor. Örneğin ARIMA, LSTM, GRU gibi bazı makine öğrenme/derin öğrenme tabanlı teknikler var.
+3) Zaman serileri ile ilgili açık erişimli örnek veri kümelerinin incelenmesi. 
+4) Ele alınan problemler özelinde elde edilen sonuçlar neler?
+5) Bu 4 maddeyi bilimsel çalışmalar çerçevesince araştırmanız beklenmektedir. Bilimsel çalışmalar IEEE Xplore, ACM, Wiley, MDPI, Elsevier ve Springer veritabanlarında olmak zorundadır. Bunun dışındaki kaynakları okumayınız. 
+
+Not. Ödevin son gönderim tarihi 9 Ocak 2025 Perşembe günü saat 23.59'dur. Ödev durmus.odev@gmail.com mail adresine BM605-Ödev4 konusu ile gönderilecektir. Ödevin word belgesini göndermeniz yeterlidir. Bu ödev dönem sonu notuna etki ettirilecektir. 
+Not: Final sınavımız 9 Ocak 2025 Perşembe günü saat 14.00'da seminer salonunda yapılacaktır. 
+
+İyi çalışmalar dilerim. 
